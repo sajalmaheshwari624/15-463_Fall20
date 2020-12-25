@@ -1,0 +1,11 @@
+In order to run the code :
+	1. Go into the src folder.
+	2. Make the following changes into the code :
+		a. Change the data_folder to the path to the images in Line 327.
+		b. Change the path to the first image in the data folder
+		c. Change the args to the get_intrinsics and get_extrinsics function in 331 and 332 respectively.
+		d. Change the search bounds to search for the vertical and horizontal lines in the image in line 339 and 340 respectively. Format : (start_row, end_row)
+		e. Change the bounds where to search for the reconstruction in line 352. Format : (start_row, end_row, start_col, end_col)
+	3. The results are saved in the dataset directory itself.
+
+The results are stores in the data/results and the data/self_data/results folders respectively.

@@ -1,0 +1,15 @@
+To run the different parts of the code :
+
+Q1. 
+	Initials - Run the initials function in main. The path is the path where the images are stored.
+	Uncalibrated photometric stereo - Run the function uncalibrated. The QMatrix also needs to be given as the input and can be commented. Default QMatrix is Identity. 
+	Simple rendering - Run the function render_image.
+	Enforcing integrability - Run the function integrability
+	Normal integration - Run the function integrate_normal
+	Calibrated photometric - Only run the initials function and the calibrated_stereo_and_rest function. Comment all other functions in main
+
+Q2. 
+	Give the path of the images in the path variable.
+	In the Initals function, choose the size of the box filter in the argument and the area to crop in the Initals function after reading the image (Line 38).
+
+Q3. Run the code from line 290 to 292 after integration if normal.

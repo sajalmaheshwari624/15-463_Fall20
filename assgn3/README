@@ -1,0 +1,7 @@
+To run the code, please follow these steps :
+
+1. Change the path to the non-flash and the flash images in Line 276 and 277 of the file assign3.py
+2. Set the sigma_spatial and sigma_intensity for bilateral filter processing in Line 279
+3. Set the tau and sigma threshold for gradient domain processing in Line 282
+4. Run the command assign3.py
+5. Save the images
